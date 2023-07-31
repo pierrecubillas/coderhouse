@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+
+h1{
+    color: #ffffff;
+    font-size: 50px;
+    text-align: left;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.imagen-proyectos{
+    width: 500px;
+height: 350px;
+object-fit: cover;
+}
+
+
+.portada {
+background-color: black;
+text-align:center;
+width: 100%;
+height: 300px;
+padding: 20px;
+display: flex; justify-content: center; align-items: center;
+}
+
+.portada h1{color: #ffffff; font-weight: 300; font-size: 60px; text-align: center; text-justify: auto;}
+
+.portada-sub{
+    background-color: black;
+text-align:center;
+width: 100%;
+height: 100px;
+padding: 20px;
+display: flex; justify-content: center; align-items: center;
+}
+
+.portada-sub h3{color: #ffffff; font-weight: 300;font-size: 30px; text-align: center; text-justify: auto;}
+
+
+
+.carrusel-inicio{
+    background-image: url(../multimedia/img/billboard\ mockup_B.png);
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    background-size: cover;
+    object-fit: cover;
+}
+
+
+   .contenedor-emprendimiento{
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;padding: 50px;} 
+
+
+    .texto-emprendimiento{
+        display: flex;
+       flex-direction: column;
+       justify-content: center
+    }
+
+.texto-emprendimiento h2{ font-weight: 300; font-size: 45px; text-align: center;}
+.texto-emprendimiento p{ font-weight: 300; font-size: 25px; text-align: center;}
+
+.formulario-emprendimiento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-destacados{
+background-color: #ffffff;
+text-align:center;
+width: 100%;
+height: 150px;
+padding: 20px;
+display: flex; justify-content: center; align-items: center;
+}
+
+.titulo-destacados h2{ color: #000000; font-weight: 300;}
+
+.contenedor-destacados{
+    background-color: #ffffff;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card-destacados{
+width: 700px;
+height: 600px;
+overflow: hidden;
+margin: 20px;
+text-align: left;
+padding: 30px;
+}
+
+.card-destacados img{
+    width: 700px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.card-destacados h3 {font-weight: 300; font-size: 30px;}
+.card-destacados p{ font-weight: 300;font-size: 20px;}
+
+
+.titulo-trabajos{
+    background-color: #ffffff;
+    text-align:center;
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    display: flex; flex-direction: column;justify-content: center;
+}
+
+.titulo-trabajos h2{ font-weight: 300;color: #000000;}
+
+
+.contenedor-servicios{
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 600px;
+    gap: 50px; padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.texto-servicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.texto-servicios h2{ font-weight: 300; font-size: 45px; text-align: center}
+.texto-servicios p{ font-weight: 300; font-size: 25px; text-align: center;}
+
+
+.lista-servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.lista-servicios h3{font-weight: 300; font-size: 30px;}
+.lista-servicios li{font-weight: 300; font-size: 20px;}
+
+.lista-identidad{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.lista-digital{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+
+
+
+
+
+.seccion-marcas {
+    background-color: rgb(255, 255, 255);
+    text-align: left;
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    }
+
+    .seccion-marcas h2{color: #000000; }
+
+    .seccion-marcas h3{color: #000000;
+    font-weight: 400;}
+
+
+   .seccion-marcas button{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 5px;
+   }
+
+.seccion-proyectos {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.call-proyectos{
+    background-color:#f7f7f7;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    padding: 20px;  
+}
+
+.call-proyectos button{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+footer{background-color: black;
+    height: 200px;
+    width: 100%;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+align-items: center;
+}
+footer h3{color: #ffffff;}
+
+.call-footer p{
+    font-weight: 200; color: #f7f7f7;
+}
+
+.call-footer button{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 5px; 
+}
+
+.socialmedia-footer h2{
+    font-weight: 300; color: #f7f7f7;
+}
+
+.socialmedia-footer h3{
+    font-weight: 300;
+}
+
+.socialmedia-footer p{
+    color: #f7f7f7;
+    font-weight: 200;
+}
+
+.whatsapp {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #25D366;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.whatsapp svg{
+    font-size: 40px;
+}
