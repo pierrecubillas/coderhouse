@@ -166,98 +166,6 @@ padding: 30px;
     justify-content: center;
 }
 
-
-.lista-digital{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: left;
-}
-
-
-
-
-
-
-.seccion-marcas {
-    background-color: rgb(255, 255, 255);
-    text-align: left;
-    width: 100%;
-    height: 300px;
-    padding: 20px;
-    }
-
-    .seccion-marcas h2{color: #000000; }
-
-    .seccion-marcas h3{color: #000000;
-    font-weight: 400;}
-
-
-   .seccion-marcas button{
-    background-color: #000000;
-    color: #ffffff;
-    padding: 10px 25px;
-    border: 0;
-    border-radius: 5px;
-   }
-
-.seccion-proyectos {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-around;
-}
-
-.call-proyectos{
-    background-color:#f7f7f7;
-    text-align: center;
-    width: 100%;
-    height: 200px;
-    padding: 20px;  
-}
-
-.call-proyectos button{
-    background-color: #000000;
-    color: #ffffff;
-    padding: 10px 25px;
-    border: 0;
-    border-radius: 5px;
-}
-
-
-footer{background-color: black;
-    height: 200px;
-    width: 100%;
-display: grid;
-grid-template-columns: repeat(2,1fr);
-align-items: center;
-}
-footer h3{color: #ffffff;}
-
-.call-footer p{
-    font-weight: 200; color: #f7f7f7;
-}
-
-.call-footer button{
-    background-color: #ffffff;
-    color: #000000;
-    padding: 10px 25px;
-    border: 0;
-    border-radius: 5px; 
-}
-
-.socialmedia-footer h2{
-    font-weight: 300; color: #f7f7f7;
-}
-
-.socialmedia-footer h3{
-    font-weight: 300;
-}
-
-.socialmedia-footer p{
-    color: #f7f7f7;
-    font-weight: 200;
-}
-
 .whatsapp {
     width: 80px;
     height: 80px;
@@ -276,3 +184,31 @@ footer h3{color: #ffffff;}
 .whatsapp svg{
     font-size: 40px;
 }
+
+.pie-pagina{
+    background-color: #000000;
+    color: #ffffff;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    align-items: center;
+}
+.frase-pie{
+    padding: 30px;
+}
+.frase-pie p{
+   font-weight: 300; font-size: 30px; 
+}
+
+.contacto-pie{
+    padding: 15px; 
+}
+.contacto-pie p{
+    font-weight: 300; font-size: 20px;
+}
+
+.social-pie{
+    padding: 15px;    
+}
+.social-pie i[
+]
